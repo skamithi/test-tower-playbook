@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    command: date
+    when: ansible_system == 'Linux'
